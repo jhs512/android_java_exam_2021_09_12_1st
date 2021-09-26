@@ -53,6 +53,8 @@
     <TextView
         android:id="@+id/activity_main__textViewRs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="결과"
+        android:textSize="20sp" />
 
 </LinearLayout>
