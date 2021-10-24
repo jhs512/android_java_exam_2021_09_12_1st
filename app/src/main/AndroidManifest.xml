@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <!-- android:windowSoftInputMode="adjustResize" 키보드가 나올 때, 바닥의 요소들이 가려지지 않게 -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
